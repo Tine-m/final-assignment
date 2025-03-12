@@ -145,8 +145,9 @@ stmt.execute();
 - Measure and compare **transaction latency**.
 - Analyze when **Optimistic and Pessimistic Concurrency Control is better**.
 
-To run a performance test comparing Optimistic Concurrency Control and Pessimistic Concurrency Control under heavy load, you may follow [these guidelines](performance-test.md).
-You must document your finding in a Performance comparison report. Use this [template](concurrency-report-template.md)
+To run a performance test comparing the two concurrency strategies under heavy load, you can find inspiration in these [guidelines](performance-test.md).
+
+You must document your finding in a Performance comparison report. Use this [concurrency report template](concurrency-report-template.md)
 
 ---
 

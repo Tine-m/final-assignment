@@ -1,8 +1,6 @@
 # **Performance Test: Optimistic vs. Pessimistic Concurrency Control (OCC vs. PCC)**
 
 
-
-## **📖 Test Steps**
 You can use **[Java's `ExecutorService`](https://www.baeldung.com/java-executor-service-tutorial)** to create multiple threads that execute transactions concurrently.
 
 ### **🔹 Step 1: Simulating Heavy Load for OCC**
@@ -10,11 +8,11 @@ You can use **[Java's `ExecutorService`](https://www.baeldung.com/java-executor-
 Optimistic Concurrency Control allows multiple transactions to proceed simultaneously but checks for conflicts at commit time.
 
 1️⃣ Create multiple threads that attempt to register the same player in a tournament.
-2️⃣ Each thread:
 
-Reads the current tournament version.
-Tries to **register a player** using OCC logic (```UPDATE ... WHERE version = ?```).
-If the update fails, it retries the operation. 3️⃣ Measure time taken and log failed attempts.
+2️⃣ Each thread:
+- Reads the current tournament version.
+- Tries to **register a player** using OCC logic (```UPDATE ... WHERE version = ?```).
+- If the update fails, it retries the operation. 3️⃣ Measure time taken and log failed attempts.
 
 **Java Code: OCC Simulation**
 
