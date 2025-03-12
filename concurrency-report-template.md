@@ -1,7 +1,6 @@
-# **📊 Performance Analysis Report: Optimistic vs. Pessimistic Concurrency Control**
+# **Performance Analysis Report: Optimistic vs. Pessimistic Concurrency Control**
 
-## **📝 Student Name: [Your Name]**
-## **📅 Date: [Submission Date]**
+## **📝 Student Names: [Your Names]**
 
 ---
 
@@ -75,8 +74,8 @@ This report analyzes and compares the performance of **Optimistic Concurrency Co
 
 ---
 
-## **📊 Performance Comparison Chart**
-_You may want to visualize your finding by including a  chart that illustrates the differences in execution time, successful transactions, and transactions with delays for OCC vs. PCC._
+## **Performance Comparison Chart**
+_You *may* want to visualize your finding by including a  chart that illustrates the differences in execution time, successful transactions, and transactions with delays for OCC vs. PCC._
 
 ---
 
@@ -86,16 +85,3 @@ _You may want to visualize your finding by including a  chart that illustrates t
 
 ### **Final Recommendations:**
 - [Provide recommendations based on the test results]
-
----
-
-## **📌 Submission Checklist**
-✅ Java Code for OCC & PCC Implementation.  
-✅ SQL Scripts Used.  
-✅ Completed Performance Analysis Table.  
-✅ Summary of Observations & Conclusion.  
-✅ Performance Comparison Chart (chart.png).  
-
----
-
-🎯 **Now finalize your report and submit it! 🚀**

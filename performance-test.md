@@ -37,9 +37,9 @@ Pessimistic Concurrency Control locks the row when a transaction starts, prevent
 1️⃣ Create multiple threads attempting to update the same match result.
 2️⃣ Each thread: 
 
-Executes a ```SELECT ... FOR UPDATE``` to lock the row.
-Updates the match result.
-Commits the transaction. 3️⃣ Measure how long transactions wait due to locks.
+- Executes a ```SELECT ... FOR UPDATE``` to lock the row.
+- Updates the match result.
+- Commits the transaction. 3️⃣ Measure how long transactions wait due to locks.
 
 **Java Code: PCC Simulation**
 
@@ -52,7 +52,7 @@ executor.shutdown();
 ```
 
 
-### **🔹 Step 3: Measure and Compare Performance **
+### **🔹 Step 3: Measure and Compare Performance**
 
 
 After running both simulations:
