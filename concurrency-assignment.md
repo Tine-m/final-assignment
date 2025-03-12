@@ -55,12 +55,13 @@ Read [this text](application-concurrency-note.md) first that describes and illus
 
 ## **📌 Exercises**
 
-### **1⃣ Implement Optimistic Concurrency Control for Tournament Update**
-📌 **Problem:** Two admins attempt to change the start date for a tournament at the same time. 
+### **1⃣ Implement Optimistic Concurrency Control for Tournament Updates**
+📌 **Problem:** Two admins attempt to change **the start date** for the same tournament at the same time. 
 
 ✅ **Task:**
-- 
-- Ensure that only one change is successful when two concurrent users try to update.
+- Add a **version column** to `Tournaments`.
+- Implement **version-based optimistic concurrency control** 
+- Ensure that only one change is successful when two concurrent admins try to update.
 
 #### **Example: Version Column for Optimistic Concurrency Control**
 ```sql
@@ -144,11 +145,8 @@ stmt.execute();
 ✅ **Task:**
 - 
 - Ensure that only one registration is successful when two concurrent users try to register.
-- Implement **pessimistic locking** using `SELECT ... FOR UPDATE`.
-- Ensure that only one registration is successful when two concurrent users try to register.
 
-
-
+---
 
 ### **6⃣ Compare Optimistic vs. Pessimistic Concurrency Control**
 📌 **Problem:** Run a performance test comparing Optimistic and Pessimistic Concurrency Control under heavy load.
