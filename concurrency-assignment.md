@@ -51,7 +51,7 @@ CREATE TABLE Matches (
 ---
 
 ## **📖 Read this First**
-Read [this text](application-concurrency.md) first that describes and illustrates how application code can handle concurrency issues by means of optimistic and pessimistic concurrency strategies.
+Read [this text](application-concurrency-note.md) first that describes and illustrates how application code can handle concurrency issues by means of optimistic and pessimistic concurrency strategies.
 
 ## **📌 Exercises**
 
@@ -145,11 +145,15 @@ stmt.execute();
 - Measure and compare **transaction latency**.
 - Analyze when **Optimistic and Pessimistic Concurrency Control is better**.
 
+To run a performance test comparing Optimistic Concurrency Control and Pessimistic Concurrency Control under heavy load, you may follow [these guidelines](performance-test.md).
+You must document your finding in a Performance comparison report. Use this [template](concurrency-report-template.md)
 
 ---
 
 ## **🚀 Submission Requirements**
 📌 **Email Github link and Github names for these deliverables:**
-1️⃣ Implementations for **Optimistic and Pessimistic Concurrency Control**.  
-3️⃣ SQL scripts for table creation and stored procedures.  
-2️⃣ **Performance comparison report** between Optimistic and Pessimistic Concurrency Control.
+
+1️⃣ Application implementations for **Optimistic and Pessimistic Concurrency Control**.  
+2️⃣ SQL scripts for table creation and stored procedures.  
+3️⃣ **Performance comparison report** between Optimistic and Pessimistic Concurrency Control.
+
