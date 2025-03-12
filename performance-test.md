@@ -55,7 +55,7 @@ executor.shutdown();
 ### **🔹 Step 3: Measure and Compare Performance**
 
 
-After running both simulations:
+After running both types of simulations:
 
 - **Log the execution time** for each approach.
 - **Count how many transactions failed and had to retry** (OCC).
