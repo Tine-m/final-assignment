@@ -152,8 +152,6 @@ You must document your finding in a Performance comparison report. Use this [con
 ---
 
 ## **🚀 Submission Requirements**
-📌 **Email Github link and Github names for these deliverables:**
-
 1️⃣ Application implementations for **Optimistic and Pessimistic Concurrency Control**.  
 2️⃣ SQL scripts for table creation and stored procedures.  
 3️⃣ **Performance comparison report** between Optimistic and Pessimistic Concurrency Control.
