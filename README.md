@@ -2,6 +2,4 @@
 
 Part 1: [Optimistic & Pessimistic Concurrency Control](concurrency-assignment.md)
 
-Part 2: Data Partitioning (horizontal scaling)
-
-Part 3: Query Optimization (Coming up ...)
+Part 2: Query Optimization (Coming up ...)
