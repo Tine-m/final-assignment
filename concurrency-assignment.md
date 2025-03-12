@@ -51,7 +51,7 @@ CREATE TABLE Matches (
 ---
 
 ## **📖 Read this First**
-Read [this text](app-concurrency.md) first that describes and illustrates how application code can handle concurrency issues by means of optimistic and pessimistic concurrency strategies.
+Read [this text](application-concurrency.md) first that describes and illustrates how application code can handle concurrency issues by means of optimistic and pessimistic concurrency strategies.
 
 ## **📌 Exercises**
 
