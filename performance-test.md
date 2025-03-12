@@ -22,7 +22,7 @@ for (int i = 0; i < 10; i++) {
     executor.submit(() -> {
         boolean success = false;
         while (!success) {
-            success = registerPlayerOptimisticConcurrency(tournamentId, playerId);
+            success = updateTournamentOptimisticConcurrency(tournamentId, playerId);
         }
     });
 }
