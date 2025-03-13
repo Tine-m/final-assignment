@@ -96,7 +96,7 @@ CREATE TABLE Tournaments (
 ---
 
 ## **📊 Performance Comparison Chart**
-![Concurrency Control Compariso](https://github.com/user-attachments/assets/dc02d727-81b8-48cf-bfdc-b48064806fbf)
+![Concurrency Control Comparison](img/concurrencychart.png)
 
 
 
