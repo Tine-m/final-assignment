@@ -114,15 +114,3 @@ _This chart illustrates the differences in execution time, successful transactio
 - Use **OCC** for scenarios where **multiple reads are common, but updates are infrequent**.
 - Use **PCC** for scenarios where **frequent updates to the same data occur**.
 
----
-
-## **📌 Submission Checklist**
-✅ Java Code for OCC & PCC Implementation.  
-✅ SQL Scripts Used.  
-✅ Completed Performance Analysis Table.  
-✅ Summary of Observations & Conclusion.  
-✅ Performance Comparison Chart (chart.png).  
-
----
-
-🎯 **Now finalize your report and submit it! 🚀**
