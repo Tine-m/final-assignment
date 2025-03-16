@@ -2,6 +2,7 @@
 
 Part 1: [Optimistic & Pessimistic Concurrency Control](concurrency-assignment.md)
 
-Part 2: [Denormalization & Partions](denormalization_partitioning_exercises.md) & [Query Optimization](query-optimizing-exercises.md)
+Part 2: [Denormalization & Partions](denormalization_partitioning_exercises.md) & [Query Optimization](query-optimizing-exercises.md). As a result of these exercises you must write a small reflection note (approx. ½ page) expressing your own key findings regarding database optimization (including any difference from MySQL if you use another database server).
 
-Hand-in date: Sunday March 23 at 22.00 - email me link to GitHub repository and your names.	
+Hand-in date: Sunday March 23 at 22.00 - email me link to GitHub repository and your names.
+	
