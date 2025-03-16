@@ -198,6 +198,6 @@ SELECT * FROM Sales PARTITION (pEU) WHERE sale_date BETWEEN '2023-01-01' AND '20
 - How does **list partitioning compare to range partitioning**?
 
 ---
-## **📝 Exercise 5: Checking Query Performance with Partitioning**
+## **Exercise 5: Checking Query Performance with Partitioning**
 
 [See this guide](checking_query_performance_partitioning.md)
