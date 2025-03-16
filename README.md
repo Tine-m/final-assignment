@@ -2,6 +2,6 @@
 
 Part 1: [Optimistic & Pessimistic Concurrency Control](concurrency-assignment.md)
 
-Part 2: [Denormalization]() & [Query Optimization]()
+Part 2: [Denormalization & Partions](denormalization_partitioning_exercises.md) & [Query Optimization](query-optimizing-exercises.md)
 
-Hand-in date: Sunday March 23 at 22.00 - email me link to GitHub repository and your names.
+Hand-in date: Sunday March 23 at 22.00 - email me link to GitHub repository and your names.	
